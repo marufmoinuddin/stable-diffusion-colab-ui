@@ -24,14 +24,6 @@ mkdir -p ./easy-diffusion/models/stable-diffusion > /dev/null 2>&1
 wget -O ./easy-diffusion/models/stable-diffusion/anythingv45.ckpt \
     https://huggingface.co/andite/anything-v4.0/resolve/main/anything-v4.5.ckpt > /dev/null 2>&1
 
-# Download dreamlikev20 checkpoint
-wget -O ./easy-diffusion/models/stable-diffusion/dreamlikev20.ckpt \
-    https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0/resolve/main/dreamlike-photoreal-2.0.ckpt > /dev/null 2>&1
-
-# Download islamicdiffusion checkpoint
-wget -O ./easy-diffusion/models/stable-diffusion/islamicdiffusion.ckpt \
-    https://huggingface.co/Falah/islamicdiffusion/blob/main/islamicdiffusion.ckpt  > /dev/null 2>&1
-
 # Set the SD_UI_BIND_PORT environment variable and start the Easy Diffusion application
 SD_UI_BIND_PORT=1234 ./easy-diffusion/start.sh &>/dev/null &
 
