@@ -17,8 +17,6 @@ Original notebook: [StableDiffusionUI](https://colab.research.google.com/drive/1
 1. The following commands are used to download the model checkpoints:
    ```bash
    wget -O ./easy-diffusion/models/stable-diffusion/anythingv45.ckpt https://huggingface.co/andite/anything-v4.0/resolve/main/anything-v4.5.ckpt
-   wget -O ./easy-diffusion/models/stable-diffusion/dreamlikev20.ckpt https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0/resolve/main/dreamlike-photoreal-2.0.ckpt
-   wget -O ./easy-diffusion/models/stable-diffusion/islamicdiffusion.ckpt https://huggingface.co/Falah/islamicdiffusion/blob/main/islamicdiffusion.ckpt
    ```
 
 2. Install the required `pyngrok` package by running:
