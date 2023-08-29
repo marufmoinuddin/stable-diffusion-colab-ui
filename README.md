@@ -29,8 +29,8 @@ Original notebook: [StableDiffusionUI](https://colab.research.google.com/drive/1
 3. Import the necessary modules and set up an authentication token for ngrok tunneling:
    ```python
    from pyngrok import ngrok
-   !read -p "Paste authtoken here (Copy and Ctrl+V to paste then press Enter): " CRP
-   !./ngrok authtoken $CRP
+   token = str(input("Please insert your auth token here: "))
+   ngrok.set_auth_token(token)
    ```
 
 4. Connect ngrok to a port (e.g., port 8888) and print the tunnel details:
