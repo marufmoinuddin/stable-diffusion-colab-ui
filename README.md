@@ -12,7 +12,7 @@ Original notebook: [StableDiffusionUI](https://colab.research.google.com/drive/1
 
 2. Run the notebook cells to set up the environment and download necessary files.
 
-## Or create for scratch:
+## Or Create from scratch:
 
 1. The following commands are used to download the model checkpoints:
    ```bash
