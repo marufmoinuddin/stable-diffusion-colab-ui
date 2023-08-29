@@ -1,13 +1,14 @@
+This project is inspired by [Easy Diffusion](https://github.com/cmdr2/stable-diffusion-ui)
 
 # Stable Diffusion Colab UI
 
 This Colab notebook allows you to use the Stable Diffusion software to create visually appealing images using pretrained models. Stable Diffusion is a generative model that can produce high-quality images from text descriptions.
 
-Original notebook: [Easy-Diffusion.ipynb](https://colab.research.google.com/drive/1azbWcuk5Bs-IF4Hbv7UouNClj2amo8an)
+Original notebook: [StableDiffusionUI](https://colab.research.google.com/drive/1azbWcuk5Bs-IF4Hbv7UouNClj2amo8an)
 
 ## Instructions
 
-1. Open the provided Colab notebook link: [Easy-Diffusion.ipynb](https://colab.research.google.com/drive/1azbWcuk5Bs-IF4Hbv7UouNClj2amo8an)
+1. Open the provided Colab notebook link: [StableDiffusionUI](https://colab.research.google.com/drive/1azbWcuk5Bs-IF4Hbv7UouNClj2amo8an)
 
 2. Run the notebook cells to set up the environment and download necessary files.
 
@@ -28,7 +29,8 @@ Original notebook: [Easy-Diffusion.ipynb](https://colab.research.google.com/driv
 3. Import the necessary modules and set up an authentication token for ngrok tunneling:
    ```python
    from pyngrok import ngrok
-   ngrok.set_auth_token("<YOUR TOKEN HERE>")
+   !read -p "Paste authtoken here (Copy and Ctrl+V to paste then press Enter): " CRP
+   !./ngrok authtoken $CRP
    ```
 
 4. Connect ngrok to a port (e.g., port 8888) and print the tunnel details:
@@ -48,7 +50,6 @@ Original notebook: [Easy-Diffusion.ipynb](https://colab.research.google.com/driv
 
 Remember to terminate the ngrok tunnel and stop the Stable Diffusion user interface when you are done.
 
-For more details, refer to the original Colab notebook: [Easy-Diffusion.ipynb](https://colab.research.google.com/drive/1azbWcuk5Bs-IF4Hbv7UouNClj2amo8an)
+For more details, refer to the original Colab notebook: [StableDiffusionUI](https://colab.research.google.com/drive/1azbWcuk5Bs-IF4Hbv7UouNClj2amo8an)
 ```
 
-Feel free to add any additional information or customization to this README as needed.
