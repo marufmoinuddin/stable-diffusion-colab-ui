@@ -28,7 +28,7 @@ Original notebook: [Easy-Diffusion.ipynb](https://colab.research.google.com/driv
 3. Import the necessary modules and set up an authentication token for ngrok tunneling:
    ```python
    from pyngrok import ngrok
-   ngrok.set_auth_token("2NmWjThs9G7IwLaRMUffSgdNDax_84cxU5DQmcn2QphR9ULCk")
+   ngrok.set_auth_token("<YOUR TOKEN HERE>")
    ```
 
 4. Connect ngrok to a port (e.g., port 8888) and print the tunnel details:
